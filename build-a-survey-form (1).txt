@@ -6,11 +6,10 @@
     <meta charset="UTF-8" />
     <title>Survey Form</title>
   </head>
-   
   <body>
     <h1 id="title">Chiêu Anh’s Personal Survey Form</h1>
     <p id="description"><i>Thank you for taking the time to help me grow as a person<3</i></p>
-    <form id="survey-form">
+    <form id="survey-form" action="https://formspree.io/f/xeokbbjp" method="POST">
       <label for="name" id="name-label">Name</label>
       <input 
       id="name" 
