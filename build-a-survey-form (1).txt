@@ -1,0 +1,125 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+   
+  <body>
+    <h1 id="title">Chiêu Anh’s Personal Survey Form</h1>
+    <p id="description"><i>Thank you for taking the time to help me grow as a person<3</i></p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input 
+      id="name" 
+      required 
+      type="text"
+      placeholder="your name here"><br>
+      <label for="email" id="email-label">Email</label>
+      <input 
+      id="email" 
+      required 
+      type="email"
+      placeholder="youremail@gmail.com"><br>
+      <label for="number" id="number-label">Age  </label>
+      <input 
+      type="number"
+      id="number" 
+      min="1" 
+      max="100"
+      placeholder="01-99">
+      <p><b>Which word best describes me?</b></p>
+      <select id="dropdown">
+        <option>(Other word)</option>
+        <option>Genuine</option>
+        <option>Sensitive</option>
+        <option>Empathetic</option>
+        <option>Perfectionist</option>
+        <option>Affectionate</option>
+        <option>Confident</option>
+        <option>Cautious</option>
+        <option>Grumpy</option>
+        <option>Indecisive</option>
+      </select><br>
+      <label for="other-word">Other word:</label>
+      <input 
+      id="other-word" 
+      type="text"
+      placeholder="type here">
+      <p><b>How emotionally expressive do you think I am?</b></p>
+      <input 
+      type="radio" 
+      name="expressiveness" 
+      value="very"> Very expressive<br>
+      <input 
+      type="radio" 
+      name="expressiveness" 
+      value="somewhat"> Somewhat expressive<br>
+      <input 
+      type="radio" 
+      name="expressiveness" 
+      value="notMuch"> Not very expressive<br>
+      <p><b>What do you like most about me?</b> (Choose all that apply)</p>
+      <input type="checkbox" name="likes" value="smile">My smile<br>
+      <input type="checkbox" name="likes" value="honesty">My honesty<br>
+      <input type="checkbox" name="likes" value="gifts">My handmade gifts<br>
+      <input type="checkbox" name="likes" value="creativity">My creativity<br>
+      <input type="checkbox" name="likes" value="listen">The way i listen<br>
+      <input type="checkbox" name="likes" value="determination">My determination<br>
+      <input type="checkbox" name="likes" value="style">My style<br>
+      <input type="checkbox" name="likes" value="academic">My academic abilities<br>
+      <input type="checkbox" name="likes" value="sensitivity">My sensitivity<br>
+      <input type="checkbox" name="likes" value="care">The way i care<br>
+      <input type="checkbox" name="likes" value="try-hardest">The way i try my hardest<br>
+      <label for="other-things">Other things:</label>
+      <input 
+      id="other-things" 
+      type="text"
+      placeholder="optional"><br>
+      <label for="improve"><b>What would you like me to improve about myself?</b></label><br>
+      <textarea 
+      id="improve" 
+      name="improve" 
+      rows="4" 
+      cols="50" 
+      placeholder="Ex:My anger issues, my impatience, my ability to resolve things, my high expectations,..."></textarea><br>
+      <p><b>How comfortable do you feel around me?</b>(1 = Not at all, 5 = Very comfortable)</p>
+      <input
+      type="radio"
+      name="comfortable"
+      value="1">1<br>
+      <input
+      type="radio"
+      name="comfortable"
+      value="2">2<br>
+      <input
+      type="radio"
+      name="comfortable"
+      value="3">3<br>
+      <input
+      type="radio"
+      name="comfortable"
+      value="4">4<br>
+      <input
+      type="radio"
+      name="comfortable"
+      value="5">5<br>
+      <label for="improve"><b>Any other thoughts you want to tell me?</b></label><br>
+      <textarea 
+      id="improve" 
+      name="improve" 
+      rows="4" 
+      cols="50" 
+      placeholder="optional"></textarea><br>
+      <input
+      id="submit"
+      type="submit"
+      value="Submit Survey">
+    </form>
+  </body>
+</html>
+
+** end of index.html **
+
